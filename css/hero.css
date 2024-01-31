@@ -1,0 +1,44 @@
+.hero {
+    margin-top: 70px;
+}
+
+.hero__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero__item {
+    max-width: 350px;
+}
+
+.hero__title {
+    font-weight: 500;
+    font-size: 26px;
+    color: #fff;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.hero__subtitle {
+    font-family: sans-serif;
+    max-width: 180px;
+    color: #fff;
+    margin: 10px 0 10px 23%;
+}   
+
+.yellow {
+    color: #D4C17F;
+}
+
+.hero__btn {
+    background: #D4C17F;
+    font-family: sans-serif;
+    margin-left: 23%;
+    width: 150px;
+    height: 30px;
+}
+
+.hero__background {
+    width: 450px;
+}

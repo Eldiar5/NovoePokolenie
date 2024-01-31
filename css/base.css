@@ -1,0 +1,43 @@
+body {
+    background: linear-gradient( rgba(0, 0, 0, 0.816) 0%,rgba(5, 34, 66, 0.883) 0%,rgb(76, 139, 156) 50%,rgba(28, 77, 131, 0.816) 80%,rgba(9, 39, 72, 0.883) 100%);
+    background-attachment: fixed;
+/* 
+    color: rgba(40, 102, 168, 0.816);
+    color: rgba(21, 62, 107, 0.883);
+    color: rgba(117,189,209,1);
+    color: rgba(21, 62, 107, 0.883);
+
+    background: rgba(21, 62, 107, 0.883);
+    background: rgba(27, 59, 87, 0.883); */
+
+}
+
+body.burgerMode {
+    overflow: hidden;
+}
+
+a {
+    color: #fff;
+}
+
+.container {
+    padding: 20px 40px;
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+.slider-arrows {
+    display: none;
+}
+
+.slider {
+    display: none;
+}
+
+.btn {
+    border-radius: 12px;
+}
+
+.btn-link {
+    color: #333;
+}

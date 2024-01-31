@@ -1,0 +1,13 @@
+@import url(./reset.css);
+
+@import url(./base.css);
+@import url(./media.css);
+
+@import url(./header.css);
+@import url(./hero.css);
+@import url(./about.css);
+@import url(./study.css);
+@import url(./whyWe.css);
+@import url(./online.css);
+@import url(./questions.css);
+@import url(./footer.css);

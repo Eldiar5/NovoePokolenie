@@ -1,0 +1,28 @@
+.about__title {
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin: 110px 0 20px 0;
+}
+
+.about__image {
+    width: 250px;
+}
+
+.about__text {
+    color: #fff;
+    font-family: sans-serif;
+    max-width: 400px;
+    line-height: 20px;
+}
+
+.about__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text1 {
+    margin-bottom: 15px;
+}

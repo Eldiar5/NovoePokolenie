@@ -1,0 +1,45 @@
+.study__content {
+    padding: 0 0 0 195px;
+}
+
+.study__title {
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin: 100px 0 40px 0;
+}
+
+.study__item {
+    width: 300px;
+    height: 200px;
+    background: #cfcdcd87;
+    margin: 0 35px 25px 0;
+}
+
+.study__list {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.study__img {
+    width: 150px;
+    margin: 15px 75px 20px 75px;
+}
+    
+.study__desc {
+    color: #fff;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.scratchImg {
+    width: 130px;
+}
+.pythonImg {
+    width: 100px;
+    margin: 15px 0 20px 90px;
+}
+.mitappImg {
+    width: 180px;
+}

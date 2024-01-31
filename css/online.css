@@ -1,0 +1,29 @@
+.online__title {
+    color: #ffffffed;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 80px 0 50px 0;
+}
+
+.online__text {
+    color: #ffffffed;
+    font-family: sans-serif;
+    max-width: 500px;
+    line-height: 18px;
+    margin: 0 auto;
+}
+
+.online__btn {
+    background: #D4C17F;
+    font-family: sans-serif;
+    margin-left: 23%;
+    width: 150px;
+    height: 30px;
+    margin: 0 0 0 435px;
+    margin-top: 25px;
+    height: 40px;
+}
+
+.online__link {
+    font-size: 13px;
+}
