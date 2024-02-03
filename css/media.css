@@ -1451,6 +1451,10 @@
         display: flex;
     }
 
+    .whyWe .whyWe__item {
+        min-width: 280px;
+    }
+
     .whyWe .whyWe__content {
         align-items: center;
         margin: 0 0 0 120px;
