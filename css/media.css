@@ -1466,17 +1466,18 @@
 
 
     .online__content .online__btn {
-        margin: 30px 0 0 35%;
+        margin: 30px 0 0 25%;
         font-size: 12px;
     }
 
     .online .online__text {
         font-size: 12px;
-        margin: 0 0 0 50px;
+        margin: 0 0 0 10px;
+        text-align: start;
     }
 
     .online .online__title {
-        margin: 80px 0 50px 35px;
+        margin: 80px 0 30px 0;
     }
 
 
