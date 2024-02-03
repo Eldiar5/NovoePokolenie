@@ -1380,7 +1380,7 @@
 
     .about .about__text {
         font-size: 12px;
-        max-width: 300px;
+        min-width: 300px;
     }
 
 
