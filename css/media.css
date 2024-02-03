@@ -678,7 +678,7 @@
     }
 
     .study .container {
-        height: 400px;
+        height: 100%;
     }
 
     .study .study__content {
@@ -692,11 +692,11 @@
 
     .study__item .study__img {
         width: 100px;
-        margin: 15px 100px;
+        /* margin: 15px 100px; */
     }
 
     .study__item .pythonImg {
-        width: 80px;
+        width: 60px;
     }
 
     .study__item .scratchImg {
