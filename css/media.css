@@ -766,7 +766,7 @@
     }
 }
 
-@media screen and (max-width:724px) {
+/* @media screen and (max-width:724px) {
     .study__content {
         display: none;
     }
@@ -863,7 +863,7 @@
         height: 150px;
         background: #ffffff80;
     }
-}
+} */
 
 @media screen and (max-width:680px) {
     .sign-inBtn {
