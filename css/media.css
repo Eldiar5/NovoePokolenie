@@ -1470,8 +1470,8 @@
     }
 
     .whyWe .whyWe__img {
-        max-width: 300px;
-        max-height: 200px;
+        max-width: 250px;
+        max-height: 150px;
     }
 
     .whyWe__list .adaptive {
@@ -1484,7 +1484,7 @@
 
     .whyWe .whyWe__content {
         align-items: center;
-        margin: 0 0 0 120px;
+        margin: 0 0 0 0;
     }
 
     .whyWe .whyWe__title {
