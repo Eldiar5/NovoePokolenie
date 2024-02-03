@@ -1398,20 +1398,29 @@
 
 
     .study__content .study__list {
-        display: inline-flex;
+        flex-direction: column;
+        flex-wrap: wrap;
     }
 
     .study .container {
-        height: 400px;
+        height: 100%;
+        min-width: 450px;
+        padding: 0;
     }
 
     .study .study__content {
-        padding: 0 0 0 50px;
+        padding: 0 0 0 0;
+        display: flex;
     }
 
     .study__list .study__item {
-        width: 250px;
-        height: 150px;
+        width: 200px;
+        height: 100px;
+        background: #cfcdcd87;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0 0 115px 0;
     }
 
     .study__item .study__img {
@@ -1420,15 +1429,33 @@
     }
 
     .study__item .pythonImg {
-        width: 80px;
+        width: 45px;
     }
 
     .study__item .scratchImg {
-        width: 90px;
+        width: 60px;
+    }
+
+    .study__item .mitappImg {
+        width: 100px;
+    }
+
+    .study__item .htmlImg {
+        width: 70px;
+    }
+
+    .study__item .cssImg {
+        width: 70px;
+    }
+
+    .study__item .jsImg {
+        width: 70px;
     }
 
     .study__item .study__desc {
-        font-size: 11px;
+        font-size: 9px;
+        min-width: 150px;
+        line-height: 11px;
     }
 
     section.study {
