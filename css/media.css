@@ -1619,23 +1619,40 @@
         margin-left: 10px;
     }
 
+    .header .header__content {
+        margin: 0 0 0 60px;
+    }
+
 
     .hero .hero__title {
-        font-size: 20px;
+        font-size: 24px;
+        min-width: 350px;
+        text-align: start;
+    }
+
+    .hero__item .hero__subtitle {
+        font-size: 16px;
+        text-align: start;
+        margin-left: 0;
+    }
+
+    .hero__item .hero__btn {
+        margin: 0 0 0 -1%;
     }
 
     .hero .hero__content {
         flex-direction: column;
-        margin: 0 0 0 100px;
+        margin: 0 0 0 0px;
     }
 
     .hero .hero__item {
-        min-width: 300px;
+        max-width: 300px;
         margin-bottom: 40px;
     }
 
     .hero__content .hero__background {
-        max-width: 300px;
+        max-width: 350px;
+        margin-left: 20px;
     }
 
 
@@ -1644,34 +1661,43 @@
     }
 
     .about .about__image {
-        width: 180px;
+        width: 160px;
     }
 
     .about .about__content {
-        margin: 0 0 0 80px;
+        margin: 0 0 0 35px;
     }
 
     .about .about__text {
-        font-size: 12px;
-        min-width: 250px;
+        font-size: 11px;
+        min-width: 300px;
     }
 
 
     .study__content .study__list {
-        display: inline-flex;
+        flex-direction: column;
+        flex-wrap: wrap;
     }
 
     .study .container {
-        height: 400px;
+        height: 100%;
+        min-width: 390px;
+        padding: 0;
     }
 
     .study .study__content {
-        padding: 0 0 0 50px;
+        padding: 0 0 0 0;
+        display: flex;
     }
 
     .study__list .study__item {
-        width: 250px;
-        height: 150px;
+        width: 195px;
+        height: 100px;
+        background: #cfcdcd87;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0 0 115px 0;
     }
 
     .study__item .study__img {
@@ -1680,26 +1706,48 @@
     }
 
     .study__item .pythonImg {
-        width: 80px;
+        width: 45px;
     }
 
     .study__item .scratchImg {
-        width: 90px;
+        width: 60px;
+    }
+
+    .study__item .mitappImg {
+        width: 100px;
+    }
+
+    .study__item .htmlImg {
+        width: 70px;
+    }
+
+    .study__item .cssImg {
+        width: 70px;
+    }
+
+    .study__item .jsImg {
+        width: 70px;
     }
 
     .study__item .study__desc {
-        font-size: 11px;
+        font-size: 9px;
+        min-width: 150px;
+        line-height: 11px;
+    }
+
+    section.study {
+        margin: 0 0 0 40px;
     }
 
 
     .whyWe__list .whyWe__item {
         max-width: 150px;
-        margin: 0 0 20px 20px;
-        font-size: 13px;
+        margin: 0 0 20px 70px;
+        font-size: 12px;
     }
 
     .whyWe .whyWe__img {
-        max-width: 200px;
+        max-width: 250px;
         max-height: 150px;
     }
 
@@ -1707,58 +1755,61 @@
         display: flex;
     }
 
+    .whyWe .whyWe__item {
+        min-width: 280px;
+        margin-left: 120px;
+    }
+
     .whyWe .whyWe__content {
         align-items: center;
-        margin: 0 0 0 150px;
+        margin: 0 0 0 0;
     }
 
     .whyWe .whyWe__title {
-        margin: 80px 0 30px 80px;
-        min-width: 250px;
+        margin: 80px 0 40px 35px;
     }
 
 
     .online__content .online__btn {
         margin: 30px 0 0 25%;
-        font-size: 11px;
-        height: 35px;
+        font-size: 12px;
     }
 
     .online .online__text {
-        min-width: 250px;
-        font-size: 12px;
-        margin: 0 0 0 30px;
+        font-size: 13px;
+        margin: 0 0 0 10px;
+        text-align: start;
     }
 
-    .online .online__content {
-        margin: 0 0 0 70px;
+    .online .online__title {
+        margin: 80px 0 30px 0;
     }
 
 
     .questions .menu {
-        margin: 0 0 0 0;
+        margin: 0 0 0 15px;
     }
 
-    .questions .questions__content {
-        margin: 0 0 0 60px;
+    .questions .questions__title {
+        margin: 90px 0 45px 60px;
+        min-width: 270px;
     }
 
     .menu .menu__link {
-        width: 300px;
-        font-size: 9px;
+        width: 350px;
     }
 
     .menu .menu__text {
-        font-size: 11px;
+        font-size: 12px;
         line-height: 18px;
     }
 
     .menu .menu-open {
-        min-width: 300px;
+        min-width: 350px;
     }
 
     .menu li a {
-        font-size: 10px;
+        font-size: 11px;
     }
 
 
@@ -1789,7 +1840,7 @@
     .study .slider {
         max-width: 400px;
         position: relative;
-        left: -10px;
+        left: -15px;
         margin: 0 0 0 0;
         height: 300px;
     }
@@ -1798,7 +1849,7 @@
         position: absolute;
         width: 40px;
         height: 40px;
-        top: 40px;
+        top: 30px;
         padding: 10px 20px;
         color: white;
         font-weight: bold;
@@ -1807,11 +1858,11 @@
     }
     
     .slider .previous {
-        left: 3%;
+        left: -2%;
         padding: 12px 15px;
     }
     .slider .next {
-        left: 125%;
+        left: 107%;
         padding: 12px 17px;
     }
 
@@ -1820,13 +1871,17 @@
         font-family: sans-serif;
         font-size: 20px;
         text-align: center;
-        margin: 100px 0 40px 75px;
+        margin: 100px 0 40px 25px;
     }
 
     .study__list .item {
         width: 300px;
         height: 150px;
         background: none;
+    }
+
+    .header .header__menu {
+        margin-left: 70px;
     }
 }
 
