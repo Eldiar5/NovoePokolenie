@@ -1,0 +1,41 @@
+.gallery__title {
+    color: #ffffffca;
+    font-family: sans-serif;
+    font-size: 22px;
+    text-align: center;
+    margin: 40px 0 50px 0;
+}
+
+.slider {
+    margin: 0 0 0 38%;
+    position: relative;
+}
+
+.slider-arrows {
+    cursor: pointer;
+}
+
+.previous {
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: -100px;
+}
+
+.next {
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 340px;
+}
+
+.item {
+    border: 1px solid #ffffff30;
+    width: 250px;
+    box-shadow: -15px 18px 5px #0000006c;
+}
+
+.gallery__img {
+    min-width: 250px;
+    max-height: 300px;
+}
