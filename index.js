@@ -118,34 +118,34 @@ if (headerBurger) {
 
 
 // slider
-// let slideIndex = 1;
+let slideIndex = 1;
 
-// showSlides(slideIndex);
+showSlides(slideIndex);
 
-// function nextSlide() {
-//     showSlides(slideIndex += 1);
-// }
+function nextSlide() {
+    showSlides(slideIndex += 1);
+}
 
-// function previousSlide() {
-//     showSlides(slideIndex -= 1);
-// }
+function previousSlide() {
+    showSlides(slideIndex -= 1);
+}
 
-// function currentSlide(n) {
-//     showSlides(slideIndex = n);
-// }
+function currentSlide(n) {
+    showSlides(slideIndex = n);
+}
 
-// function showSlides(n) {
-//     let slides = document.getElementsByClassName("item");
+function showSlides(n) {
+    let slides = document.getElementsByClassName("item");
 
-//     if (n > slides.length) {
-//         slideIndex = 1
-//     }
-//     if (n < 1) {
-//         slideIndex = slides.length
-//     }
+    if (n > slides.length) {
+        slideIndex = 1
+    }
+    if (n < 1) {
+        slideIndex = slides.length
+    }
 
-//     for (let slide of slides) {
-//         slide.style.display = "none";
-//     }
-//     slides[slideIndex - 1].style.display = "block";
-// }
+    for (let slide of slides) {
+        slide.style.display = "none";
+    }
+    slides[slideIndex - 1].style.display = "block";
+}
