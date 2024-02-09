@@ -1256,6 +1256,18 @@
         display: none;
     }
 
+    .gallery .gallery__img {
+        min-height: 250px;
+    }
+
+    .gallery .gallery__title {
+        margin: 40px 0 80px 55px;
+    }
+
+    .gallery .slider {
+        margin: 0 0 0 20%;
+    }
+
     .header__list .sign-in {
         display: block;
     }
@@ -1492,7 +1504,6 @@
         position: absolute;
         width: 40px;
         height: 40px;
-        top: 30px;
         padding: 10px 20px;
         color: white;
         font-weight: bold;
@@ -1501,12 +1512,14 @@
     }
 
     .slider .previous {
-        left: -2%;
+        top: 50%;
+        left: -30%;
         padding: 12px 15px;
     }
 
     .slider .next {
-        left: 107%;
+        top: 50%;
+        left: 105%;
         padding: 12px 17px;
     }
 
@@ -1532,6 +1545,18 @@
 @media screen and (max-width:375px) {
     .sign-inBtn {
         display: none;
+    }
+
+    .gallery .gallery__img {
+        min-height: 250px;
+    }
+
+    .gallery .gallery__title {
+        margin: 40px 0 80px 55px;
+    }
+
+    .gallery .slider {
+        margin: 0 0 0 20%;
     }
 
     .header__list .sign-in {
@@ -1772,7 +1797,6 @@
         position: absolute;
         width: 40px;
         height: 40px;
-        top: 30px;
         padding: 10px 20px;
         color: white;
         font-weight: bold;
@@ -1781,12 +1805,14 @@
     }
 
     .slider .previous {
-        left: -2%;
+        top: 50%;
+        left: -30%;
         padding: 12px 15px;
     }
 
     .slider .next {
-        left: 107%;
+        top: 50%;
+        left: 115%;
         padding: 12px 17px;
     }
 
@@ -1812,6 +1838,18 @@
 @media screen and (max-width:320px) {
     .sign-inBtn {
         display: none;
+    }
+
+    .gallery .gallery__img {
+        min-height: 250px;
+    }
+
+    .gallery .gallery__title {
+        margin: 40px 0 80px 135px;
+    }
+
+    .gallery .slider {
+        margin: 0 0 0 30%;
     }
 
     .header__list .sign-in {
@@ -2054,7 +2092,6 @@
         position: absolute;
         width: 40px;
         height: 40px;
-        top: 30px;
         padding: 10px 20px;
         color: white;
         font-weight: bold;
@@ -2063,12 +2100,14 @@
     }
 
     .slider .previous {
-        left: -2%;
+        top: 50%;
+        left: -35%;
         padding: 12px 15px;
     }
 
     .slider .next {
-        left: 107%;
+        top: 50%;
+        left: 160%;
         padding: 12px 17px;
     }
 
